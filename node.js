@@ -33,7 +33,7 @@ s.on('request', function(request, response) {
        age=arr[2];
        Request.get({
     "headers": { "content-type": "application/json" },
-    "url": "http"+host+"/demo/add?fname="+fname+"&lname="+lname+"&age="+age,
+    "url": "http://"+host+"/demo/add?fname="+fname+"&lname="+lname+"&age="+age,
 
 }, (error, response, body) => {
     if(error) {
