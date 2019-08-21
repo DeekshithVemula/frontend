@@ -50,4 +50,3 @@ s.on('request', function(request, response) {
 });
 
 s.listen(port);
-console.log('Browse to http://127.0.0.1:',port);
